@@ -13,7 +13,6 @@ resource "aws_db_instance" "main" {
   instance_class       = "db.t3.micro"
   allocated_storage    = 20
   
-  db_name             = "appdb"
   username            = "admin"
   password            = var.db_password
   
